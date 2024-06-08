@@ -1,0 +1,46 @@
+.register-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.register-form-button {
+  width: 100%;
+}
+
+.register-container img {
+  width: 100%;
+}
+
+.register-form .ant-input-affix-wrapper .anticon {
+  font-size: 20px;
+}
+
+.register-form .ant-input-affix-wrapper .ant-input {
+  padding: 4px 16px;
+  font-size: 16px;
+}
+
+.register-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.register-form-button {
+  width: 100%;
+  padding: 20px 16px;
+  font-size: 16px;
+  background-color: var(--primary-color); /* Sử dụng màu primary */
+  border-color: var(--primary-color); /* Sử dụng màu primary */
+}
+
+.register-form-button:hover {
+  background-color: darken(var(--primary-color), 10%);
+  border-color: darken(var(--primary-color), 10%);
+}
+
+.register-container .register-form {
+    margin-top: 20px;
+}
