@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import { publicRoutes } from "./components/routes";
+import { publicRoutes } from "./routes";
 import { Suspense } from "react";
 import DefaultLayout from "./components/layout/DefaultLayout";
 

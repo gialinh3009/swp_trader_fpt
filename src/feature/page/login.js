@@ -3,11 +3,28 @@ import { Form, Input, Button, Typography } from "antd";
 import { WechatWorkOutlined, LockOutlined } from "@ant-design/icons";
 import "../../assets/css/login.css";
 import LogoForm from "../../assets/images/logo-form.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function LoginPage() {
+  const navigate = useNavigate();
   const onFinish = (values) => {
     console.log("Received values of form: ", values);
+    switch (values.email) {
+      case "admin":
+        navigate("/admin");
+        break;
+      case "mod":
+        navigate("/mod");
+        break;
+      case "saler":
+        navigate("/saler");
+        break;
+      case "user":
+        navigate("/user");
+        break;
+      default:
+        navigate("/user");
+    }
   };
 
   return (

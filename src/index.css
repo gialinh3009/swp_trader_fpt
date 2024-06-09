@@ -11,12 +11,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: url("https://daihoc.fpt.edu.vn/wp-content/uploads/2022/08/dai-hoc-fpt-tp-hcm-1.jpeg")
     no-repeat center center fixed;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
 }
 
 body::before {
